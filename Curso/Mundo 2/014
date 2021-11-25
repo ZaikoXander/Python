@@ -1,0 +1,14 @@
+Estrutura de repetição com teste lógico - While
+
+while not apple:
+    passo
+pega
+
+while not apple:
+    if chaonafrente:
+        passo
+    if buraco:
+        pula
+    if moeda:
+        pega
+pega

@@ -1,0 +1,15 @@
+Variáveis Simples
+
+lanche = hamburguer
+lanche = suco
+
+Variáveis Compostas
+(Tuplas, Listas e Dicionários)
+
+lanche = {hamburguer, suco, pizza, pudim}
+print(lanche[2])
+
+"AS TUPLAS SÃO IMUTÁVEIS"
+
+lanche = ()tupla []lista {}dicionário
+lanche = 'a', 'b', 'c'  # Também é tupla

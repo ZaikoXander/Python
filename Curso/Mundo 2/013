@@ -1,0 +1,14 @@
+Laços de Repetição - Iterações
+Laço(Estrutura de repetição) com variável de controle
+
+'''laço c no intervalo(1, 10)
+    passo
+pega'''
+
+for c in range(0, 3):
+    if moeda
+        pega
+    passo
+    pula
+passo
+pega

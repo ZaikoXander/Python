@@ -1,0 +1,37 @@
+    Listas  # são mutaveis
+
+lanche = ['hamburguer', 'suco', 'pizza', 'pudim']
+lanche[3] = 'sorvete'
+
+lanche.append('biscoito') [4]
+
+lanche.insert(0, 'cachorro quente')
+
+['cachorro quente', 'hamburguer', 'suco', 'pizza', 'pudim', 'biscoito']
+
+del lanche[3] | ou | lanche.pop(3) | ou | lanche.remove('pizza')
+
+lanche.pop()
+
+['cachorro quente', 'hamburguer', 'suco', 'pudim']
+
+Se eu tentar remover um indice que não existe
+Vou receber um erro
+
+Funciona apenas se eu usar o IF
+
+if 'pizza' in lanche:
+    lanche.remove('pizza')
+
+Posso também criar uma lista desta forma
+
+valores = list(range(4, 11))
+valores = [4, 5, 6, 7, 8, 9, 10]
+
+valores = [5, 8, 3, 1, 2, 9, 15]
+valores.sort()
+valores.sort(reverse=True) ordem decrescente
+
+Medir tamanho
+
+len(valores)

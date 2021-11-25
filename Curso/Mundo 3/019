@@ -1,0 +1,67 @@
+# Tuplas (), Listas [] e Dicionários {}
+
+dados = []
+dados.append('Pedro')
+dados.append(25)
+print(dados[0])
+print(dados[1])
+
+# Variáveis Compostas (Dicionários)
+
+dados = dict() # dados = {}
+dados = {'nome':'Pedro', 'idade':25}
+print(dados['nome'])
+print(dados['idade'])
+
+# Se quiser adicionar um novo elemento do dicionario
+
+dados['sexo'] = 'M'
+
+# Se quiser eliminar um elemento
+
+del dados['idade']
+
+###
+
+filme = {
+        'titulo':'Star Wars',
+        'ano':1997,
+        'diretor':'George Lucas'
+        }
+
+# Para acessar apenas aos valores
+
+print(filme.values())
+
+# Para acessar apenas as chaves
+
+print(filme.keys())
+
+# Para acessar ambos
+
+print(filme.items())
+
+##
+
+for k, v in filme.items():
+    print(f'O {k} é {v}')
+
+##
+
+locadora = [{
+            'titulo':'Star Wars',
+            'ano':1977,
+            'diretor':'George Lucas'
+            },
+            {
+            'titulo':'Avengers',
+            'ano':2012,
+            'diretor':'Joss Whedon'
+            },
+            {
+            'titulo':'Matrix',
+            'ano':1999,
+            'diretor':'Wachowski'
+            }]
+print(locadora[0]['ano']) # 1977
+print(locadora[2]['titulo']) # Matrix

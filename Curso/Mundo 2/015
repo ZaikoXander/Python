@@ -1,0 +1,23 @@
+enquanto Verdadeiro
+    se terra
+        passo
+    se buraco
+        pula
+    se moeda
+        pega
+    se troféu
+        pula
+        interrompa
+pega
+
+while True:
+    if terra:
+        passo
+    if buraco:
+        pula
+    if moeda:
+        pega
+    if troféu:
+        pula
+        break
+pega

@@ -1,0 +1,1 @@
+Este repositório contém muitas horas de estudo em Python que tive.

@@ -1,0 +1,21 @@
+dados = list()
+dados.append('Pedro')
+dados.append(25)
+dados.append('Maria')
+dados.append(19)
+print(dados[0]) -> Pedro
+print(dados[1]) -> 25
+
+#
+
+pessoas = list()
+pessoas.append(dados[0:2]) -> pessoas == [['Pedro', 25]]
+pessoas.append(dados[2:]) -> pessoas == [['Pedro', 25], ['Maria', 19]]
+
+##
+
+pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
+print(pessoas[0][0]) -> Pedro
+print(pessoas[1][1]) -> 19
+print(pessoas[2][0] -> João
+print(pessoas[1])
